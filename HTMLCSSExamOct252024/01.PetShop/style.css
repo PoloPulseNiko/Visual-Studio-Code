@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+body{
+    background-color: white;
+}
+p{
+    font-size: 12px;
+}
+.container{
+    width: 95%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin: 2em auto;
+    display: flex;
+    background-color: white;
+}
+.image img{
+    width: 500px;
+    height: auto;
+}
+.image{
+    margin-top: 1em;
+    margin-left: 4em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+.rightsection{
+    margin-right: 4em;
+    margin-left: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.aboutus{
+    background-color: #F3F3F3;
+    height: 45%;
+    border-left: 3px solid #7AB730;
+}
+.aboutbox{
+    width: 70%;
+    margin: 0 2em;
+}
+.aboutbox p{
+    padding-top: 2em;
+    color: green;
+}
+.aboutbox h1{
+    padding-top: 0.5em;
+    font-weight: 600;
+}
+.rightsection h6{
+    padding: 1em;
+    color: rgb(93, 93, 93)
+}
+.missionsec{
+    background-color: #F3F3F3;
+    margin-bottom: 1em;
+}
+
+.missionsec .buttons{
+    padding: 1em;
+    padding-bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+.missionsec .buttons a{
+    width: 50%;
+    text-align: center;
+    align-content: center;
+    height: 30px;
+}
+.mission{
+    background-color: #7AB730;
+    color: white;
+}
+.vision{
+    background-color: #f0f0f0;
+    color: #7AB730;
+}
+.missionsec p{
+    color: rgb(93, 93, 93);
+    padding: 1em;
+    padding-top: 0.5em;
+}

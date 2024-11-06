@@ -1,0 +1,23 @@
+p{
+    color: #264848;
+}
+
+article.highlighted + article{
+    background-color: #F08080;
+}
+article ul{
+    font-weight: bold;
+}
+article ul li:nth-child(2){
+    color: #FF6347;
+}
+article ul li:nth-child(4) li a{
+    text-decoration: none;
+    color: blue;
+}
+article ul li:nth-child(4) li:nth-child(3) a{
+    color: green
+}
+h2 ~ p{
+    color: blue;
+}

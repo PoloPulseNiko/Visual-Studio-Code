@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Types</title>
+    <link rel="stylesheet" href="media-features.css">
+</head>
+<body>
+    <main>
+        <h1>Media Features</h1>
+        <p><i>Not complete list</i></p>
+        <p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@media#media_types">https://developer.mozilla.org/en-US/docs/Web/CSS/@media#media_types</a></p>
+        <p>Media types describe the general category of a device. Except when using the not or only logical operators, the media type is optional and the all type is implied.</p>
+
+        <h3>hover</h3>
+        <p>Does the primary input mechanism allow the user to hover over elements?</p>
+        <pre>
+@media (hover: none) {
+    body::before {
+    display: block;
+    content: 'This device doesn't support hover';
+    }
+}
+        </pre>
+
+        <h3>orientation</h3>
+        <p>Orientation of the viewport.</p>
+        <pre>
+@media (orientation: landscape) {
+    body::before {
+    display: block;
+    content: 'The device is in landscape orientation';
+    }
+}
+        </pre>
+
+        <h3>width</h3>
+        <p>Width of the viewport including width of scrollbar.</p>
+        <pre>
+@media (width: 600px) {
+    body::before {
+    display: block;
+    content: 'The viewport width is 600px';
+    }
+}
+        </pre>
+    </main>
+</body>

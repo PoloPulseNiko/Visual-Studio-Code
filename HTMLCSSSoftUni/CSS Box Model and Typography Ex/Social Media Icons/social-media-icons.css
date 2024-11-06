@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* Change to white background */
+    color: #000000; /* Change text color to black */
+    text-align: left; /* Align text to the left */
+    margin-left: 20px; /* Add some left margin to the body */
+}
+
+.icon-container {
+    margin-top: 50px; /* Adjust to move the icons down */
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #000; /* Change heading color to black */
+}
+
+.icons {
+    text-align: left; /* Align icons to the left */
+}
+
+.icon {
+    display: inline-block; /* Use inline-block for proper alignment */
+    background-color: #f0f0f0; /* Light gray background for icons */
+    padding: 15px; /* Adjust padding for circles */
+    margin: 10px; /* Space between icons */
+    border-radius: 50%; /* Make them circular */
+    text-decoration: none;
+    color: #000; /* Change icon color to black */
+    transition: background-color 0.3s ease;
+    width: 40px; /* Set fixed width */
+    height: 40px; /* Set fixed height */
+    text-align: center; /* Center icon horizontally */
+    line-height: 50px; /* Center icon vertically */
+}
+
+.icon i {
+    font-size: 25px; /* Icon size */
+}
+
+.icon:hover {
+    background-color: #ccc; /* Change background color on hover */
+}

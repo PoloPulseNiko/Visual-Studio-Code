@@ -1,0 +1,34 @@
+@media (max-width: 600px){
+    .primary header nav a:nth-child(2){
+        border-right: 0;
+        border-left: 0;
+    }
+    .primary header nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .pair{
+        display: flex;
+        flex-direction: column;
+    }
+    .planet{
+        width: 100%;
+        align-items: center;
+    }
+    .planet h3, .planet p{
+        text-align: center;
+    }
+    .news ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .primary footer nav a:nth-child(2), .primary footer nav a:nth-child(even){
+        border-left: 0;
+        border-right: 0;
+    }
+    .primary footer nav{
+        display: flex;
+        flex-direction: column;
+    }
+}

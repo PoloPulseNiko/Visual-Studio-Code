@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+.accordion-container{
+    width: 70%;
+    margin: 30px auto;
+}
+.accordion-container details{
+    border: 1px solid silver;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.accordion-container details summary{
+    font-weight: 700;
+}

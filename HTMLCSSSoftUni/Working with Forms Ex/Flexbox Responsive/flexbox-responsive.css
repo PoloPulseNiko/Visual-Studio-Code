@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.loginForm{
+    width: 80%;
+    margin: 2em auto;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+/* Container styling */
+fieldset {
+    border: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 20px auto;
+}
+
+/* Input fields styling */
+input[type="email"], input[type="text"]{
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    outline: none;
+    font-size: 16px;
+    background-color: #eee;
+}
+/* Submit button styling */
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #ff9800;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="text"], input[type="submit"] {
+    flex: 1;
+    flex-basis: 20%;  /* Name and Submit fields can go up to 20% width */
+    margin-right: 10px;
+}
+
+input[type="email"] {
+    flex: 2;
+    flex-basis: 60%;  /* Email field can go up to 60% width */
+    margin-right: 10px;
+}

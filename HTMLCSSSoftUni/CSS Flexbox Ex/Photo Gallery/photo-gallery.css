@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+body {
+    background: #EEE;
+}
+.container {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px auto;
+    gap: 20px;
+}
+.gallery-item {
+    flex: 0 0 calc( (100% / 3 ) - 20px  );
+    border: 5px solid black;
+    padding: 5px;
+    background: #FFF;
+    position: relative; /* This is important for positioning the title */
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers the content vertically */
+    align-items: center; /* Centers the content horizontally */
+    height: 100%; /* Ensures the figure takes up the full height of the container */
+    margin: 0;
+}
+
+figcaption {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    transform: scale(0.9); /* Scales the image to 70% of its original size */
+}

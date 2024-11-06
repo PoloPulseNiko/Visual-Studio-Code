@@ -1,0 +1,52 @@
+/* Reset styling */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Apply styles to the HTML element */
+html {
+    font: 14px/1.5 'Lato', sans-serif;
+}
+
+body, input, textarea, select, option {
+    font: inherit;
+}
+
+body {
+    padding: 2em;
+}
+
+h2 {
+    margin-top: 2em;
+}
+
+pre {
+    display: block;
+    padding: 2em 2em 0.5em 2em;
+    border-radius: 0.3em;
+    margin: 2em 0;
+    border: 1px solid #ccc;
+    overflow: auto;
+}
+
+/* Input element styling */
+input[type="search"] {
+    display: inline-block;
+    padding: 0.5em 0.8em;
+    border: 2px solid #ccc;
+    outline: none;
+}
+
+/* Input styling on focus */
+input[type="search"]:focus {
+    border-color: #090;
+}
+textarea {
+    display: inline-block;
+    padding: 0.5em 0.8em;
+    border: 2px solid #ccc;
+    border-radius: 0.3em;
+    outline: none;
+}

@@ -1,0 +1,125 @@
+body {
+    font-family: 'Playwrite PE', sans-serif; /* Use Playwrite for text */
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+h1{
+    font-size: 2em;
+    color:#314584;
+}
+p{
+    font-size: 1em;
+}
+
+nav ul {
+    margin: 10px auto;
+    justify-content: center;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
+    background-color: red;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.hero {
+    padding: 50px;
+}
+.hero p{
+    color: rgb(72, 72, 72)
+}
+
+.services {
+    text-align: center;
+    margin: 50px 0;
+}
+
+footer {
+    background-color: #314584;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 0;
+}
+nav, button{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+header nav ul li a{
+    color: #314584
+}
+header nav ul li:first-child a{
+    color: red;
+}
+.contact-button{
+    margin-top: 20px;
+    background-color: #f0f0f0;
+    border: 2px solid red;
+    color: #314584;
+    border-radius: 4px;
+}
+.hero{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+}
+.hero .left button{
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.hero .left button:last-child{
+    background-color: white;
+    color:#314584
+}
+.hero .right img{
+    height: 300px;
+    width: auto;
+}
+.service{
+    border-bottom: 2px solid gray;
+    margin-bottom: 2em;
+}
+.service p{
+    width: 80%
+}
+.services .service img{
+    height: 200px;
+    width: auto;
+}
+h2, h3{
+    color: #314584;
+}
+footer nav ul li a{
+    color: white;
+}
+.design .bubble {
+    position: absolute;
+    bottom: -25em; /* Adjust based on how low you want the bubble */
+    right: -5em; /* Adjust this value to control how far right the bubble appears */
+    width: 100px; /* Adjust width of the bubble image */
+    z-index: 1; /* Ensures it appears above the service content */
+}
+.webapp p{
+    text-align: right;
+}
+.webapp .bubble{
+    position: absolute;
+    bottom: -53em;
+    left: -5em;
+    width: 100px;
+    z-index: 1;
+}

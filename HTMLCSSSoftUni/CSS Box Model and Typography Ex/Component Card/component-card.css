@@ -1,0 +1,45 @@
+body{
+    background-color: #ebebeb;
+}
+body a{
+    text-decoration: none;
+    color: inherit;
+}
+.card{
+    width: 30%;
+    margin: 30px auto;
+    border-radius: 5px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    overflow: hidden;
+    background: #fff;
+}
+.img-container{
+    background-image: url('images/image1.jpg');
+    height: 250px;
+    display: block;
+    background-position: center;
+}
+.main-container h2{
+    margin: 0px;
+    font-size: 1rem;
+}
+.main-container{
+    padding: 10px 20px;
+}
+footer p{
+    margin: 0;
+}
+.f-bold{
+    font-weight: 600;
+}
+.f-italic{
+    font-style: italic;
+}
+.limit-lines{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    line-clamp: 4;
+    -webkit-line-orient: vertical;
+}

@@ -1,0 +1,65 @@
+@import url(https://fonts.googleapis.com/css2?family=Lato:wght@400;1&display=swap);
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    font-size: 14px/1.5;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+h2, h3 {
+    margin-top: 20px;
+    color: #333;
+}
+
+p {
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
+pre {
+    font-family: monospace;
+    overflow-x: auto;
+}
+
+a {
+    color: #2a7ab9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+body::before {
+    display: block;
+    background-color: #369;
+    padding: 1em 1.5em;
+    margin-bottom: 2em;
+    border-radius: 0.3em;
+    color: #fff;
+}
+h2{
+    margin-top: 0;
+}
+@media (min-width: 800px) and (max-width: 1200px) {
+    body::before {
+    display: block;
+    content: 'The viewport width is larger than 800px and smaller than 1200px';
+    }
+}
+@media not (max-width: 1200px) {
+    body::before {
+    display: block;
+    content: 'The viewport width is larger than 1200px';
+    }
+}
+@media only screen and (min-width: 800px) {
+    body::before {
+    display: block;
+    content: 'The device is using a screen and the viewport width is larger than 800px';
+    }
+}

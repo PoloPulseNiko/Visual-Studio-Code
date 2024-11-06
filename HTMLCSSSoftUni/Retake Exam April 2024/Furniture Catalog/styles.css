@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    list-style: none;
+}
+header{
+    background-image: url(images/background.jpg);
+    background-size: 103%;
+    height: 600px;
+}
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo img{
+    width: 100px;
+    height: auto;
+}

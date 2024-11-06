@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #FFF0E4;
+    font-family: 'Margarine', sans-serif;
+}
+.hero-container{
+    width: 80%;
+    margin: 1em auto;
+    display: flex;
+    height: 540px;
+}
+.container{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin: 0 0.5em;
+    height: 100%;
+}
+.left{
+    width: 40%
+}
+.right{
+    width: 70%
+}
+.top-part, .bottom-part{
+    margin: 0.5em 1em;
+}
+.top-part *{
+    margin: 0.2em 0;
+}
+.top-part{
+    padding-bottom: 1em;
+    border-bottom: 2px solid lightgray;
+}
+.left .top-part p .fa-solid{
+    padding-right: 25px;
+    color: #4287f5;
+    width: 10px
+}
+.skill-label {
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+/* Progress container */
+.progress-container {
+    width: 100%;              /* Full width */
+    border-radius: 20px;       /* Rounded corners */
+    margin-bottom: 10px;       /* Spacing between bars */
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 3px;              /* Padding around the progress bar */
+}
+
+/* Progress bar */
+.progress-bar {
+    width: 0%;                 /* Default width */
+    background-color: #4287f5;  /* Blue color */
+    text-align: center;         /* Center the percentage text */
+    color: white;               /* Text color */
+    border-radius: 15px;        /* Rounded corners */
+    padding: 2px 0;             /* 2px padding to increase the height slightly */
+    line-height: 1.5em;         /* Height of the text (adjust as needed) */
+    font-size: 14px;            /* Adjust the font size for readability */
+}
+.right section{
+    margin: 1em 1.5em;
+}
+.right section h2{
+    text-align: center;
+}
+h2{
+    font-weight: normal;
+    margin: 1.5em 0; 
+}
+.right section .history-container{
+    margin: 1em 0;
+}
+.right section .history-container *{
+    margin: 1em 0;
+}
+.right section .history-container h4{
+    color: rgb(68, 68, 68)
+}
+.right section .history-container .timestamp{
+    color: #4287f5
+}
+.right section .history-container{
+    border-bottom: 2px solid lightgray;
+}
+.right section .history-container:last-child{
+    border-bottom: none;
+}
